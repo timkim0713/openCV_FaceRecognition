@@ -2,12 +2,12 @@ import cv2
 import numpy as numpy
 import face_recognition
 
-imgTim = face_recognition.load_image_file("images/tim1.jpg")
+imgTim = face_recognition.load_image_file("images/tim.jpg")
 imgTim = cv2.cvtColor(imgTim, cv2.COLOR_BGR2RGB)
 
 
-# imgTest = face_recognition.load_image_file("images/timTest.jpg")  # result true
-imgTest = face_recognition.load_image_file("images/bill.jpg")  # result false
+imgTest = face_recognition.load_image_file("images/timTest.jpg")  # result true
+# imgTest = face_recognition.load_image_file("images/bill.jpg")  # result false
 imgTest = cv2.cvtColor(imgTest, cv2.COLOR_BGR2RGB)
 
 
@@ -56,4 +56,5 @@ cv2.putText(
 
 cv2.imshow("tim", imgTim)
 cv2.imshow("tim test", imgTest)
-cv2.waitKey(5000)
+cv2.waitKey(0)
+
