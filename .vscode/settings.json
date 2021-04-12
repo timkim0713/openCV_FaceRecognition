@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "C:\\Users\\timki\\anaconda3\\envs\\openCV-env\\python.exe",
+    "python.formatting.provider": "black"
+}
